@@ -1,0 +1,67 @@
+/*Qua si definiscono valori nel body come anche lo sfondo*/
+body{
+    background-image: url(immagini/background.jpg);
+    background-size: cover;
+    color: lime;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*Qua sono sistemati i margini nei caratteri e la grandezza del logo*/
+h1{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+h2{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+p {
+    margin: 0px;
+}
+#logoLim{
+    width: 300px;
+    
+}
+/*Qua é sistemato il box con la trasparenza e la grandezza*/
+.box{
+    text-align: center;
+    background: rgb(10, 9, 9, 0.6);
+    border-radius: 20px;
+    margin: 30px 450px 450px ;
+    padding: 160px 150px 230px 150px;
+    
+}
+/*Quadro bottoni*/
+.buttons{
+    background-color: lime;
+    padding: 10px;
+    
+}
+/*Colore e posizione dello scritto nel main*/
+.main{
+    color: whitesmoke;
+    text-align: start;
+}
+
+/*Nei prossimi passi sono sistemate le barre colorate nei div di ogni monopattino*/
+
+.carica1 {
+    background-color: rgb(230, 171, 60);
+    padding: 20px;
+    border-radius: 10px;
+    width: 420px;
+    
+}
+.carica2{
+    background-color: rgb(45, 207, 45);
+    padding: 20px;
+    border-radius: 10px;
+    width: 750px;
+}
+.carica3{
+    background-color: rgb(202, 43, 43);
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
